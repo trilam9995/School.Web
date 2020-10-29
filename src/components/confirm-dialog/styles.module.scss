@@ -1,0 +1,23 @@
+.confirmDialog {
+
+  :global(.MuiDialogTitle-root) {
+    h2 {
+      font-size  : 1.5em;
+      font-weight: 600;
+    }
+  }
+
+  :global(.MuiDialogContent-root) {
+    p {
+      font-size  : 1em;
+      font-weight: 600;
+    }
+  }
+
+  .containerBtnActions {
+    :global(.MuiButton-root) {
+      font-weight: 600;
+      color      : #20a6c1;
+    }
+  }
+}

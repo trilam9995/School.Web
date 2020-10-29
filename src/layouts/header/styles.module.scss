@@ -1,0 +1,23 @@
+.toolbarHeader {
+  display        : flex;
+  justify-content: space-between;
+  height         : 5rem;
+  background     : #20a6c1;
+  margin-left    : -6.5rem !important;
+
+
+  .leftHeader {
+    display: flex;
+
+    .textLogo {
+      display        : flex;
+      justify-content: center;
+      align-items    : center;
+      color          : #fff;
+      width          : 100%;
+      font-size      : 2em;
+      font-weight    : 700;
+      font-style     : oblique;
+    }
+  }
+}

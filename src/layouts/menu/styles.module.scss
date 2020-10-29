@@ -1,0 +1,52 @@
+.listMenu {
+
+  .listItem {
+
+    :global(.MuiAvatar-img) {
+      height: 1.5rem;
+      width : auto;
+      filter: invert(81%) sepia(37%) saturate(0%) hue-rotate(168deg) brightness(88%) contrast(107%);
+    }
+
+    :global(.MuiListItemText-root) {
+      font-weight : 600;
+      padding-left: 10px;
+    }
+  }
+
+  .listItem:hover {
+    // background  : rgba(231, 251, 254, 1.0) !important;
+    background  : #efefef !important;
+    border-left : 3px solid #20a6c1;
+    box-sizing  : border-box;
+    padding-left: 12px;
+
+    :global(.MuiAvatar-img) {
+      filter   : invert(63%) sepia(14%) saturate(2117%) hue-rotate(143deg) brightness(84%) contrast(95%);
+      // filter: invert(50%) sepia(95%) saturate(4751%) hue-rotate(173deg) brightness(104%) contrast(102%);
+    }
+
+    :global(.MuiListItemText-root) {
+      // color: #009DDC !important;
+      color: #000 !important;
+    }
+  }
+
+  .active {
+    // background  : rgba(231, 251, 254, 1.0) !important;
+    background  : #efefef !important;
+    border-left : 3px solid #20a6c1;
+    box-sizing  : border-box;
+    padding-left: 12px;
+
+    :global(.MuiAvatar-img) {
+      filter   : invert(63%) sepia(14%) saturate(2117%) hue-rotate(143deg) brightness(84%) contrast(95%);
+      // filter: invert(50%) sepia(95%) saturate(4751%) hue-rotate(173deg) brightness(104%) contrast(102%);
+    }
+
+    :global(.MuiListItemText-root) {
+      // color: #009DDC !important;
+      color: #000 !important;
+    }
+  }
+}

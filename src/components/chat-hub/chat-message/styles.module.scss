@@ -1,0 +1,20 @@
+.chatMessage {
+  width          : 30%;
+  display        : flex;
+  flex-direction : column;
+  justify-content: space-between;
+  background     : red;
+  padding        : 16px;
+
+  .containerMessage {
+
+    .item {
+      margin-top: 0.5rem;
+    }
+  }
+
+  .containerAddMessage {
+    display       : flex;
+    flex-direction: column;
+  }
+}

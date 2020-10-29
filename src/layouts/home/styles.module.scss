@@ -1,0 +1,28 @@
+.sideBar {
+  display   : flex;
+  background: #F4F6FC;
+  height    : 100vh;
+
+  :global(.MuiList-padding) {
+    padding: 0;
+  }
+
+  :global(.MuiDrawer-paperAnchorDockedLeft) {
+    border: 0;
+  }
+
+  .toolbar {
+    display   : flex;
+    height    : 5rem;
+    background: #20a6c1;
+
+    .logo {
+      height             : 100%;
+      width              : 100%;
+      background-image   : url("../../assets/img/fpt-logo.png");
+      background-repeat  : no-repeat;
+      background-size    : 9.5rem 3.5rem;
+      background-position: 2.8rem;
+    }
+  }
+}

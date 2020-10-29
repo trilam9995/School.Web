@@ -1,0 +1,49 @@
+.profileManagement {
+  display        : flex;
+  align-items    : center;
+  justify-content: flex-end;
+
+  .profile {
+    display        : flex;
+    justify-content: space-around;
+    align-items    : center;
+    width          : 15rem;
+    margin-right   : 1rem;
+
+    img {
+      height       : 3rem;
+      border-radius: 50%;
+    }
+
+    .accountContainer {
+
+      .textHello,
+      .textUserName {
+        color: #fff;
+      }
+
+      .textHello {
+        font-size  : 0.9em;
+        font-weight: 500;
+      }
+
+      .textUserName {
+        font-size  : 1em;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .btnProfile {
+
+    :global(.MuiIconButton-root) {
+      padding: 0;
+      filter : invert(100%) sepia(7%) saturate(1097%) hue-rotate(303deg) brightness(120%) contrast(96%);
+
+      img {
+        height: 2rem;
+        width : 2rem;
+      }
+    }
+  }
+}

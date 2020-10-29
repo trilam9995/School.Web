@@ -1,0 +1,27 @@
+.chatRoom {
+  width          : 15%;
+  background     : blue;
+  display        : flex;
+  flex-direction : column;
+  justify-content: space-between;
+  ;
+  padding: 16px;
+
+  .containerRoom {
+    padding: 0 16px;
+
+    ul {
+      li {
+        margin-top: 0.5rem;
+
+        a {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .containerAddRoom {
+    margin-top: 1rem;
+  }
+}

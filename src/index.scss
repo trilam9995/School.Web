@@ -1,0 +1,147 @@
+html,
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing : antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height                 : 100%;
+  font-size              : 16px;
+  background             : #F4F6FC;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance   : none;
+  appearance        : none;
+  margin            : 0;
+}
+
+@font-face {
+  font-family: 'Museo100-Regular.otf';
+  src        :
+    local('Museo100-Regular.otf'),
+    url('./assets/fonts/Museo100-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Museo300-Regular.otf';
+  src        :
+    local('Museo300-Regular.otf'),
+    url('./assets/fonts/Museo300-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Museo500-Regular.otf';
+  src        :
+    local('Museo500-Regular.otf'),
+    url('./assets/fonts/Museo500-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Museo700-Regular.otf';
+  src        :
+    local('Museo700-Regular'),
+    url('./assets/fonts/Museo700-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Museo900-Regular';
+  src        :
+    local('Museo900-Regular'),
+    url('./assets/fonts/Museo900-Regular.otf') format('opentype');
+}
+
+* {
+  margin    : 0px;
+  padding   : 0px;
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  position  : absolute;
+  z-index   : 0;
+  width     : 100%;
+  background: #F4F6FC;
+}
+
+.datePicker {
+  display       : flex;
+  flex-direction: column;
+  margin-left   : 1.5rem;
+
+  .MuiInputBase-root {
+    border-radius      : 5px !important;
+    border             : 1px solid rgb(195, 195, 195) !important;
+    // border          : 1px solid #e0e7ff !important;
+    // background   : rgba(224, 231, 255, 0.2) !important;
+  }
+
+  .MuiInputBase-input {
+    padding: 0.45rem 1rem;
+  }
+
+  .MuiInputBase-inputAdornedEnd {
+    // background: rgba(224, 231, 255, 0.2) !important;
+  }
+
+  .MuiInput-underline:before {
+    content: none;
+  }
+
+  .MuiInput-underline:after {
+    content: none;
+  }
+}
+
+// DIALOG ROOT
+.MuiDialogContent-root {
+  padding: 1rem;
+}
+
+//LABLE HEADER
+.labelHeader {
+  margin-bottom: 0.2rem;
+  font-weight  : 600;
+  font-size    : 0.9em;
+}
+
+//INPUT FIELD COL
+.inputFieldCol {
+  display       : flex;
+  flex-direction: column;
+  width         : 100%;
+  margin-bottom : 0.5rem;
+
+  .MuiOutlinedInput-input {
+    padding: 0.5rem 1rem;
+  }
+}
+
+
+//TEXT LIST EMPTY
+.text-empty {
+  font-size  : 1em;
+  font-weight: 600;
+}
+
+//Loading
+.MuiCircularProgress-svg {
+  color: #20a6c1;
+}
+
+.MuiButtonBase-root {
+  color: #20a6c1;
+}
+
+.MuiPaginationItem-page.Mui-selected {
+  background: #20a6c1 !important;
+  color     : #fff !important;
+}
